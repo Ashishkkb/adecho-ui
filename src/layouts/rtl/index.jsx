@@ -70,7 +70,6 @@ export default function RTL(props) {
           <div className="h-full">
             <Navbar
               onOpenSidenav={() => setOpen(true)}
-              logoText={"Horizon UI Tailwind React"}
               brandText={currentRoute}
               secondary={getActiveNavbar(routes)}
               {...rest}
@@ -85,9 +84,9 @@ export default function RTL(props) {
                 />
               </Routes>
             </div>
-            <div className="p-3">
+            {/* <div className="p-3">
               <Footer />
-            </div>
+            </div> */}
           </div>
         </main>
       </div>

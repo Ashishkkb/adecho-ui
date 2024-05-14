@@ -4,6 +4,8 @@ import { Routes, Route, Navigate } from "react-router-dom";
 import RtlLayout from "layouts/rtl";
 import AdminLayout from "layouts/admin";
 import AuthLayout from "layouts/auth";
+
+document.body.classList.add("dark");
 const App = () => {
   return (
     <Routes>
